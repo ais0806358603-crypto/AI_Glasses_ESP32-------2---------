@@ -31,23 +31,23 @@ extern const char* GCP_API_KEY; // Google Cloud Platform API Key (Vision & Speec
 // Battery ADC
 #define PIN_BATTERY_ADC 5  // ขาอ่านแรงดันแบตเตอรี่ (ผ่าน Voltage Divider)
 
-// Camera (OV2640 on ESP32-S3 Sense)
+// Camera (OV2640 on XIAO ESP32S3 Sense)
 #define PWDN_GPIO_NUM    -1
 #define RESET_GPIO_NUM   -1
-#define XCLK_GPIO_NUM    39
-#define SIOD_GPIO_NUM    21
-#define SIOC_GPIO_NUM    46
-#define Y9_GPIO_NUM      40
-#define Y8_GPIO_NUM      38
-#define Y7_GPIO_NUM      37
-#define Y6_GPIO_NUM      35
-#define Y5_GPIO_NUM      33
-#define Y4_GPIO_NUM      48
-#define Y3_GPIO_NUM      47
-#define Y2_GPIO_NUM      34
-#define VSYNC_GPIO_NUM   41
-#define HREF_GPIO_NUM    42
-#define PCLK_GPIO_NUM    36
+#define XCLK_GPIO_NUM    10
+#define SIOD_GPIO_NUM    40
+#define SIOC_GPIO_NUM    39
+#define Y9_GPIO_NUM      48
+#define Y8_GPIO_NUM      11
+#define Y7_GPIO_NUM      12
+#define Y6_GPIO_NUM      14
+#define Y5_GPIO_NUM      16
+#define Y4_GPIO_NUM      18
+#define Y3_GPIO_NUM      17
+#define Y2_GPIO_NUM      15
+#define VSYNC_GPIO_NUM   38
+#define HREF_GPIO_NUM    47
+#define PCLK_GPIO_NUM    13
 
 // ==========================================
 // 3. System States & Constants
